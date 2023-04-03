@@ -64,11 +64,16 @@ Donde solo cambiaremos la palabra PORCENTAJE por el porcentaje del tiempo que se
 ```
 /function wbfornite:_start
 ```
-- Si queremos resetear todo el sistema deberemos ejecutar el siguiente comando:
+- Si queremos resetear datos internos del sistema usaremos:
+```
+/function wbfornite:_restore
+```
+**NOTA:** Esta función no resetea los parámetros que nosotros definimos, solo variables internas. Tampoco resetea el tamaño del worldborder al inicial, por lo que eso deberemos de hacerlo manualmente.
+- Para resetear el temporizador y datos internos del sistema, ejecutaremos el siguiente comando:
 ```
 /function wbfornite:_reset
 ```
-**NOTA:** Esta función no resetea los parámetros, solo el temporizador y variables internas. Tampoco resetea el tamaño del worldborder al inicial, por lo que eso deberemos de hacerlo nosotros manualmente.
+**NOTA:** Este comando no resetea el worldborder a su tamaño inicial, eso lo deberemos de hacerlo manualmente.
 - Si por alguna razón necesitamos parar completamente el ciclo de ejeción del sistema, necesitaremos ejecutar el siguiente comando:
 ```
 /function wbfornite:_kill
