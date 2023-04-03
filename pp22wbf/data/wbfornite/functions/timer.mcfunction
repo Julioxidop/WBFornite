@@ -1,5 +1,6 @@
 #say when border starts to reduce
-execute if score .nextiter wbdata = .b _timer run function wbfornite:modify/iter
+execute if score .nextiter wbdata = .b _timer if score .b _iters matches 1.. run function wbfornite:modify/iter
+execute if score .nextiter wbdata = .b _timer run scoreboard players remove .b _iters 1
 
 #set next iter and iter reduction
 execute if score .nextred wbdata = .b _timer run function wbfornite:iter/prered
