@@ -1,3 +1,4 @@
+# WorldBorde like Fornite
 ## Caracteristicas
 - Totalmente configurable a tus necesidades con unos pocos comandos.
 - Al ser vanilla no se necesita tener conocimientos avanzados en programación para modificarlo a tu gusto.
@@ -88,6 +89,6 @@ Esta función se ejecuta cuando el borde comienza a reducirse. Por defecto solo 
 Esta función se ejecuta cuando el tiempo se termina y el worldborder llega al tamaño final.
 
 Sientete libre de modificar las demás funciones si necesitas mayor personalización.
-##Notas
+## Notas
 - Por cuestión de decimales y por falta de tiempo, el tamaño final del worldborder no siempre es exactamente el que se estableció, el tamaño final puede varias desde una fracción de bloque a un par de bloques.
 - Si tienes dudas o quieres contactar conmigo, mi user de discord es: **hugme#8792**
