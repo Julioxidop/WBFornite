@@ -31,11 +31,6 @@ scoreboard players operation .1secblocks wbdata = .blocksred wbdata
 scoreboard players operation .1secblocks wbdata *= 1000 holder1
 scoreboard players operation .1secblocks wbdata /= .redtime wbdata
 
-#set case for the reduction
-execute if score .1secblocks wbdata matches 1000.. run scoreboard players set .case wbdata 1
-execute if score .1secblocks wbdata matches 100..999 run scoreboard players set .case wbdata 2
-execute if score .1secblocks wbdata matches ..99 run scoreboard players set .case wbdata 3
-
 #start
 function wbfornite:modify/start
 
