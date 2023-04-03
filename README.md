@@ -5,7 +5,7 @@
 - Funciones listas para que lo puedas personalizar y dar tu toque único.
 
 ## Descargar e instalar
-Primero necesitaremos [***descargar***](https://github.com/Julioxidop/WBFornite/releases/tag/1.1 "aquí")  el datapack, después lo descomprimimos en la carpeta **datapacks** de nuestro mundo y ejercutaremos el comando **/reload** para que esté listo para funcionar.
+Primero necesitaremos [***descargar***](https://github.com/Julioxidop/WBFornite/releases/tag/2.0 "aquí")  el datapack, después lo descomprimimos en la carpeta **datapacks** de nuestro mundo y ejercutaremos el comando **/reload** para que esté listo para funcionar.
 
 ## Funcionamiento y configuración
 Los parametros configurables que tenemos son los siguientes.
