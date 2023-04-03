@@ -57,7 +57,7 @@ Para configurarlo dentro del juego necesitaremos ejecutar el siguiente comando.
 ```
 Donde solo cambiaremos la palabra PORCENTAJE por el porcentaje del tiempo que se estará reduciendo el borde.
 **IMPORTANTE:** Este número solo debería de ser entre 0 y 100, de no ser así podría causar problemas.
-[![percent](https://i.imgur.com/mJaDWzc.png "percent")](https://i.imgur.com/mJaDWzc.png "percent")
+[![percent](https://i.imgur.com/Zmb02WE.png "percent")](https://i.imgur.com/Zmb02WE.png "percent")
 
 ## Como usar el datapack
 - Después de haber configurado todos los parámetros, para iniciar el sistema, necesitaremos ejecutar el siguiente comando:
