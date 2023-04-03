@@ -35,7 +35,6 @@ Este tiempo se refiere a los **segundos** que pasarán desde que se inicia la pr
 Para configurarlo dentro del juego necesitaremos ejecutar el siguiente comando.
 ```
     /scoreboard players set .b _timer TIEMPO
-
 ```
 Donde solo cambiaremos la palabra TIEMPO a la **cantidad de segundos** que durará todo el sistema.
 [![tiempoytamaños](https://i.imgur.com/dH8q28y.png "tiempoytamaños")](https://i.imgur.com/dH8q28y.png "tiempoytamaños")
@@ -46,7 +45,6 @@ Es necesario mencionar que siempre se añade una iteración extra, está iteraci
 Para configurarlo dentro del juego necesitaremos ejecutar el siguiente comando.
 ```
     /scoreboard players set .b _iters ITERACIONES
-
 ```
 Donde solo cambiaremos la palabra ITERACIONES por la cantidad de iteraciones que queremos.
 [![iters](https://i.imgur.com/d5C4T0B.png "iters")](https://i.imgur.com/d5C4T0B.png "iters")
@@ -56,7 +54,6 @@ Este parámetro es un porcentaje que va de 0 a 100, el cual indica de lo que dur
 Para configurarlo dentro del juego necesitaremos ejecutar el siguiente comando.
 ```
     /scoreboard players set .b _reductionpercent PORCENTAJE
-
 ```
 Donde solo cambiaremos la palabra PORCENTAJE por el porcentaje del tiempo que se estará reduciendo el borde.
 **IMPORTANTE:** Este número solo debería de ser entre 0 y 100, de no ser así podría causar problemas.
@@ -80,7 +77,7 @@ Donde solo cambiaremos la palabra PORCENTAJE por el porcentaje del tiempo que se
 ## Personalización
 Este datapack está planeada para la personalización de eventos específicos, las funciones para ajustar estan en `p22wbf/data/wbfornite/functions/modify/` aqui tenemos 4 funciones listas para 4 eventos diferentes.
 ### start.mcfunction
-Esta función se ejecuta cuando se empieza el sistema después de usar el comando `./function wbfornite:_start`
+Esta función se ejecuta cuando se empieza el sistema después de usar el comando `/function wbfornite:_start`
 ### iter.mcfunction
 Esta función se ejecuta al comienzo de una iteración. Por defecto en el datapack dice el tiempo que falta para que el borde se comienze a reducir.
 ### reduction.mcfunction
