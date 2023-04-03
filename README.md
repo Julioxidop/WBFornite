@@ -1,4 +1,4 @@
-# WorldBorde like Fornite
+# WorldBorder like Fornite
 ## Caracteristicas
 - Totalmente configurable a tus necesidades con unos pocos comandos.
 - Al ser vanilla no se necesita tener conocimientos avanzados en programación para modificarlo a tu gusto.
