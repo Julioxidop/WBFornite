@@ -5,7 +5,7 @@
 - Funciones listas para que lo puedas personalizar y dar tu toque único.
 
 ## Descargar e instalar
-Primero necesitaremos [***descargar***](https://github.com/Julioxidop/WBFornite/releases/tag/1.1 "aquí")  el datapack, después lo descomprimimos en la carpeta **datapacks** de nuestro mundo y ejercutaremos el comando **/reload** para que esté listo para funcionar.
+Primero necesitaremos [***descargar***](https://github.com/Julioxidop/WBFornite/releases/tag/2.0 "aquí")  el datapack, después lo descomprimimos en la carpeta **datapacks** de nuestro mundo y ejercutaremos el comando **/reload** para que esté listo para funcionar.
 
 ## Funcionamiento y configuración
 Los parametros configurables que tenemos son los siguientes.
@@ -64,11 +64,16 @@ Donde solo cambiaremos la palabra PORCENTAJE por el porcentaje del tiempo que se
 ```
 /function wbfornite:_start
 ```
-- Si queremos resetear todo el sistema deberemos ejecutar el siguiente comando:
+- Si queremos resetear datos internos del sistema usaremos:
+```
+/function wbfornite:_restore
+```
+**NOTA:** Esta función no resetea los parámetros que nosotros definimos, solo variables internas. Tampoco resetea el tamaño del worldborder al inicial, por lo que eso deberemos de hacerlo manualmente.
+- Para resetear el temporizador y datos internos del sistema, ejecutaremos el siguiente comando:
 ```
 /function wbfornite:_reset
 ```
-**NOTA:** Esta función no resetea los parámetros, solo el temporizador y variables internas. Tampoco resetea el tamaño del worldborder al inicial, por lo que eso deberemos de hacerlo nosotros manualmente.
+**NOTA:** Este comando no resetea el worldborder a su tamaño inicial, eso lo deberemos de hacerlo manualmente.
 - Si por alguna razón necesitamos parar completamente el ciclo de ejeción del sistema, necesitaremos ejecutar el siguiente comando:
 ```
 /function wbfornite:_kill
