@@ -1,6 +1,6 @@
 # WorldBorder like Fornite
 
-##Tabla de contenidos
+## Tabla de contenidos
 - [WorldBorder like Fornite](#worldborder-like-fornite)
   * [Caracteristicas](#caracteristicas)
   * [Descargar e instalar](#descargar-e-instalar)
