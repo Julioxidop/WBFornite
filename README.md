@@ -1,4 +1,23 @@
 # WorldBorder like Fornite
+
+##Tabla de contenidos
+- [WorldBorder like Fornite](#worldborder-like-fornite)
+  * [Caracteristicas](#caracteristicas)
+  * [Descargar e instalar](#descargar-e-instalar)
+  * [Funcionamiento y configuración](#funcionamiento-y-configuraci-n)
+    + [Tamaño inicial](#tama-o-inicial)
+    + [Tamaño final](#tama-o-final)
+    + [Tiempo](#tiempo)
+    + [Iteraciones](#iteraciones)
+    + [Porcentaje del tiempo de reducción](#porcentaje-del-tiempo-de-reducci-n)
+  * [Como usar el datapack](#como-usar-el-datapack)
+  * [Personalización](#personalizaci-n)
+    + [start.mcfunction](#startmcfunction)
+    + [iter.mcfunction](#itermcfunction)
+    + [reduction.mcfunction](#reductionmcfunction)
+    + [final.mcfunction](#finalmcfunction)
+  * [Notas](#notas)
+
 ## Caracteristicas
 - Totalmente configurable a tus necesidades con unos pocos comandos.
 - Al ser vanilla no se necesita tener conocimientos avanzados en programación para modificarlo a tu gusto.
